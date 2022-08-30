@@ -1,0 +1,104 @@
+.card {
+  width: 470px;
+  height: 168px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 3%;
+}
+
+.card--image {
+  height: 168px;
+  width: 125px;
+  border-radius: 5px;
+}
+
+.card--right {
+  width: auto;
+  height: 168px;
+  margin-left: 19px;
+}
+
+.locationInfo {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 0px;
+}
+
+.card--location {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.card--view {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 12px;
+}
+
+.mapLink {
+  text-decoration: underline;
+  color: #918e9b;
+}
+
+.mapLink:visited {
+  text-decoration: underline;
+}
+
+.card--title {
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.card--time {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.card--description {
+  font-family: Inter;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 9px;
+  margin-bottom: 0px;
+}
+
+.hr {
+  height: 5px;
+  width: 478px;
+  left: 40px;
+  top: 286px;
+  border-radius: 5px;
+  border: 1px solid #f5f5f5;
+}
